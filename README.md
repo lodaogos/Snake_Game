@@ -18,5 +18,12 @@ As your snake gets bigger, you should be careful to not eat yourself. If you do,
 ![image](https://user-images.githubusercontent.com/115076652/215306414-3d9a23dc-5e30-42b7-989b-7042031abad6.png)
 
 
+## Some Bug I Found
+### Bug 1
+Everytime you press reset, the speed of the snake increase. This has something to do with how the setTimout method works. In order to fix that, i created a global variable so that i can clear it everytime the game reset.
+![image](https://user-images.githubusercontent.com/115076652/215307005-dbf7a9dc-18cd-4046-a96a-0b102006b311.png)
+![image](https://user-images.githubusercontent.com/115076652/215307013-e0748f70-24ce-4d2e-976b-b018476f3786.png)
+
+
 
 
