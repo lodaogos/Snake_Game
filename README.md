@@ -41,7 +41,9 @@ I think this has something to do with how actionListener is instant and the game
 
 Well we can fix it by using some variable that will tell are we allowed to take input right now or not.
 ![image](https://user-images.githubusercontent.com/115076652/215307483-57788934-dca6-45ad-b04c-25a2a0e63e70.png)
+
 ![image](https://user-images.githubusercontent.com/115076652/215307486-7630818c-260d-411e-bf1e-0d34b88f547c.png)
+
 ![image](https://user-images.githubusercontent.com/115076652/215307492-1351b8d7-5b92-4fac-9a60-45c4feb0dffa.png)
 This will fix the bug
 
