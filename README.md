@@ -1,5 +1,5 @@
 # **Snake Game**
-Learning html, javascript, and css by making a snake game. i followed BroCode tutorial on [youtube](https://youtu.be/Je0B3nHhKmM) all credits to him. While playing around with the code, i managed to fix some bug i found in the code. The fixes will be shown below the game overview. I changed the game a little bit so that there is no border. Everytime the snake is touching the border of the game, it will automatically teleport the snake to the opposite of the border. Like the image below.
+Learning html, javascript, and css by making a snake game. i followed Bro Code tutorial on [youtube](https://youtu.be/Je0B3nHhKmM) all credits to him. While playing around with the code, i managed to fix some bug i found in the code. The fixes will be shown below the game overview. I changed the game a little bit so that there is no border. Everytime the snake is touching the border of the game, it will automatically teleport the snake to the opposite of the border. Like the image below.
 ![image](https://user-images.githubusercontent.com/115076652/215307250-31e7ccda-0d8c-4e26-933e-eabb5ca6f9d9.png)
 
 
@@ -20,7 +20,7 @@ As your snake gets bigger, you should be careful to not eat yourself. If you do,
 ![image](https://user-images.githubusercontent.com/115076652/215306414-3d9a23dc-5e30-42b7-989b-7042031abad6.png)
 
 
-## Some Bug I Found
+## Some Bug I Found In The Bro Code Tutorial Snake Game Code
 ### Bug 1
 Everytime you press reset, the speed of the snake increase. This has something to do with how the setTimout method works. In order to fix that, i created a global variable and assign the variable in the nextTick function. After that, i can clear it everytime the game reset.
 ![image](https://user-images.githubusercontent.com/115076652/215307005-dbf7a9dc-18cd-4046-a96a-0b102006b311.png)
